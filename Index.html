@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Freddy Georges</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <span style="color: white;">GEORGES </span><span style="color: rgb(31, 224, 224);">Freddy</span>
+            </div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero fade-in">
+        <h2>Je suis <span style="color: rgb(31, 224, 224);">Freddy</span>, Développeur en devenir passionné par le web et le design!</h2>
+        <p>Découvrez mes compétences en développement web et en gestion environnementale.</p>
+        <button class="btn">Voir mes projets</button>
+        <img src="illustration.jpg" alt="Illustration de développement web">
+    </section>
+    
+    <section id="apropos" class="about fade-in">
+        <h2>À propos</h2>
+        <div class="content">
+            <div class="text">
+                <p>Je m'appelle <span style="color: rgb(31, 224, 224);">Freddy</span>, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant en <span class="highlight">développement web</span>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                <a id="downloadCV" href="cv_freddy_georges.pdf" class="btn">Télécharger mon CV</a>
+            </div>
+			<a href="images.html">  
+	    <img src="profile.png" alt="Photo de Freddy Georges"/> 
+	        </a>
+        </div>
+    </section>
+    
+    <section id="competences" class="skills fade-in">
+        <h2>Mes Compétences</h2>
+        <div class="skills-container">
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <p>Gestion de projet</p>
+                <div class="progress-bar"><div class="progress" data-skill="60"></div></div>
+                <p>Résolution de problème</p>
+                <div class="progress-bar"><div class="progress" data-skill="70"></div></div>
+                <p>Adaptabilité</p>
+                <div class="progress-bar"><div class="progress" data-skill="80"></div></div>
+            </div>
+            <div class="hard-skills">
+                <h3>Hard Skills</h3>
+                <p>HTML</p>
+                <div class="progress-bar"><div class="progress" data-skill="90"></div></div>
+                <p>CSS</p>
+                <div class="progress-bar"><div class="progress" data-skill="80"></div></div>
+                <p>JavaScript</p>
+                <div class="progress-bar"><div class="progress" data-skill="70"></div></div>
+                <p>VS Code</p>
+                <div class="progress-bar"><div class="progress" data-skill="85"></div></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projets" class="projects fade-in">
+        <h2>Mes Projets</h2>
+        <div class="project-container">
+            <div class="project">
+                <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <span>#html, #css, #js</span>
+                <button class="btn">Voir</button>
+            </div>
+            <div class="project">
+                <p>Un site portfolio personnel avec animations modernes.</p>
+                <span>#html, #css, #js</span>
+                <button class="btn">Voir</button>
+            </div>
+            <div class="project">
+                <p>Une application web de gestion de tâches avec JavaScript.</p>
+                <span>#html, #css, #js</span>
+                <button class="btn">Voir</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact fade-in">
+        <h2>Vous avez un projet en tête ?</h2>
+        <p>N'hésitez pas à me contacter</p>
+        <form>
+            <input type="text" placeholder="Votre prénom">
+            <input type="text" placeholder="Votre nom">
+            <input type="text" placeholder="Votre sujet">
+            <textarea placeholder="Écrivez votre message ici..."></textarea>
+            <button class="btn">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Designed by <span class="highlight">Freddy Georges</span> with HTML, CSS, JS. © 2025 Tous droits réservés</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
